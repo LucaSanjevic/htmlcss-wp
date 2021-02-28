@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    width: 70%;
+}
+    header > img {
+    height: 90px;
+    width: 180px;
+    display: inline-block;
+    padding: 10px;
+}
+.linea {
+    border-left: 1px solid rgb(190, 188, 188);
+  height: 80px;
+  display: inline-block;
+}
+
+  li{
+     display: inline-block;
+      list-style: none;
+      margin: 5px;
+      color: gray;
+      font-family: Arial, Helvetica, sans-serif, bolder;
+      font-size: 15px;
+  }
+  .immagine_grande {
+                    background-image: url("img/banner.jpg");
+                    height: 450px;
+                    background-size: cover;
+                    background-position: center;
+                    filter: brightness(85%);
+                 }
+                 .immagine_grande > h1{
+                     padding-top: 300px;
+                     padding-left: 50px;
+                     font-family: Arial, Helvetica, sans-serif;
+                     color: white;
+                 }
+                 .immagine_grande > h4 {
+                    padding-left: 50px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+                 }
+.seconda_intestazione {
+                     margin-top: 30px;
+                     margin-bottom: 30px;
+                 }
+                 .seconda_intestazione > h1 {
+                     font-size: 40px;
+                     font-family: Arial, Helvetica, sans-serif;
+                 }
+    .tre_foto::after {
+                 content: "";
+    display: table;
+    clear: both;
+    }
+.primo_articolo {
+    height: 150px;
+    width: 23%;
+    float: left;
+}
+
+.foto {
+    height: 250px;
+    background-position: center;
+    filter: brightness(80%);
+    border-radius: 15px;
+}
+.prima_foto {
+    background-image: url("img/img-3.jpg");
+}
+.secondo_articolo {
+    height: 150px;
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.seconda_foto {
+    background-image: url("img/banner-2.jpg");
+}
+.terzo_articolo {
+    height: 150px;
+    width: 23%;
+    float: left;
+}
+.terza_foto {
+    background-image: url("img/img-4.jpg");
+}
+.grigio {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    color: red;
+}
+footer{
+    text-align: center;
+    margin-top: 530px;
+}
