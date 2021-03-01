@@ -53,13 +53,13 @@ body {
                      font-size: 40px;
                      font-family: Arial, Helvetica, sans-serif;
                  }
-    .tre_foto::after {
-                 content: "";
+                 
+.tre_foto::after {
+    content: "";
     display: table;
     clear: both;
-    }
+}
 .primo_articolo {
-    height: 150px;
     width: 23%;
     float: left;
 }
@@ -74,7 +74,6 @@ body {
     background-image: url("img/img-3.jpg");
 }
 .secondo_articolo {
-    height: 150px;
     width: 48%;
     float: left;
     margin-left: 2%;
@@ -84,7 +83,6 @@ body {
     background-image: url("img/banner-2.jpg");
 }
 .terzo_articolo {
-    height: 150px;
     width: 23%;
     float: left;
 }
@@ -100,5 +98,4 @@ span {
 }
 footer{
     text-align: center;
-    margin-top: 530px;
 }
